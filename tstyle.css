@@ -1,0 +1,111 @@
+/*
+ *Name: Elstan Bultonsheen
+ *Date: 11/24/20
+ *Description: Website Test
+ */
+ 
+body {
+    background-color: #F2F2F2;
+}
+
+a:link, a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: #F8F8F8;
+    text-decoration: none;
+}
+
+purpose{
+    float: left;
+    background-color: #BBBBBB; 
+    height: 300px; 
+    width: 600px;
+    padding: 20px;   
+}
+
+club{
+    float: left;
+}
+
+#imgclub {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 25px;
+    padding-left: 250px;
+}
+
+hobby{
+    float: left;
+}
+
+#imghobby {
+    max-width: 500px;
+    max-height: 500px;
+    padding: 50px;
+    padding-left: 200px;
+}
+
+th {
+    padding-right: 20px;
+}
+
+#contact{
+    text-align: center;
+}
+
+#logo {
+    max-width: 300px; 
+    max-height: 300px; 
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+#photo-resize {
+    border: 10px outset #B49000;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+#aboutMeData{
+    background-color: #BBBBBB; 
+    height: 300px; 
+    width: 300px;
+    padding: 10px;
+}
+
+#education {
+    max-width: 800px;
+    max-height: 800px;
+    padding: 50px;
+}
+
+#educationTable{
+    float: left;
+}
+
+#educationTableData{
+    background-color: #BBBBBB; 
+    height: 200px; 
+    width: 300px;
+    //border: 5px solid #B49000;
+    padding: 10px;
+}
+
+#projectDescription{
+    float: left;
+    background-color: #BBBBBB; 
+    height: 300px; 
+    width: 700px;
+    padding: 10px;
+}
+
+#spacing{
+    padding: 10px;
+}
+
+
