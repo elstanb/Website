@@ -44,7 +44,7 @@ hobby{
 }
 
 #imghobby {
-    max-width: 500px;
+    max-width: 400px;
     max-height: 500px;
     padding: 50px;
     padding-left: 200px;
@@ -79,28 +79,40 @@ th {
 }
 
 #education {
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 100px;
+    max-height: 150px;
     padding: 50px;
-}
-
-#educationTable{
-    float: left;
+    float: right;
 }
 
 #educationTableData{
     background-color: #BBBBBB; 
     height: 200px; 
     width: 300px;
-    //border: 5px solid #B49000;
+    /**border: 5px solid #B49000;*/
     padding: 10px;
 }
 
 #projectDescription{
     float: left;
     background-color: #BBBBBB; 
-    height: 300px; 
+    height: 350px; 
     width: 700px;
+    padding: 10px;
+}
+
+#imgCalc{
+    padding-left: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#imgBeLive{
+    padding: 10px;
+}
+
+#imgCLippy{
     padding: 10px;
 }
 
