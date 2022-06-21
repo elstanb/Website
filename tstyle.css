@@ -23,9 +23,10 @@ a:hover {
 purpose{
     float: left;
     background-color: #BBBBBB; 
-    height: 300px; 
-    width: 600px;
-    padding: 20px;   
+    height: 50%; 
+    width: 50%;
+    padding: 2%; 
+    padding-bottom: 25%;  
 }
 
 club{
@@ -55,14 +56,14 @@ th {
 }
 
 #contact{
+    padding-top: 1%;
     text-align: center;
 }
 
 #logo {
-    max-width: 300px; 
-    max-height: 300px; 
-    padding-left: 200px;
-    padding-bottom: 50px;
+    width: 30%;
+    height: auto;
+    padding-left: 10%; 
 }
 
 #photo-resize {
@@ -78,12 +79,12 @@ th {
     padding: 10px;
 }
 
-#education {
+/* #education {
     max-width: 100px;
     max-height: 150px;
     padding: 50px;
     float: right;
-}
+} */
 
 #educationTableData{
     background-color: #BBBBBB; 
