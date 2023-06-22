@@ -3,9 +3,45 @@
  *Date: 11/24/20
  *Description: Website Test
  */
- 
-body {
-    background-color: #F2F2F2;
+
+.images{
+    display: none;
+    padding: 25px;
+    padding-bottom: 73px;
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+    margin: auto;
+    border: 20px outset #B49000;
+    background-image: url('desktop.png');
+}
+
+.titleContainer{
+    text-align: center;
+}
+
+.titles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texts{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#button{
+  background-color: #B49000;
+  border: #B39000 outset 5px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+body{
+    background-color: #DDDDDD;
 }
 
 a:link, a:visited {
@@ -20,15 +56,28 @@ a:hover {
     text-decoration: none;
 }
 
+tr{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #purpose{
+    border-radius: 25px;
     float: left;
     background-color: #BBBBBB; 
     height: 50vh; 
     width: 50vw;
-    padding: 2%;  
+    padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
-club{
+#rectangle{
+    padding: 5px;
+    width: 400px;
+    margin:auto;
+    background-color: #F8F8F8;  
+}
+
+/* club{
     float: left;
 }
 
@@ -48,15 +97,21 @@ hobby{
     max-height: 500px;
     padding: 50px;
     padding-left: 200px;
-}
+} */
 
 th {
-    padding-right: 20px;
+    padding-right: 5px;
 }
 
 #contact{
     padding-top: 5%;
     text-align: center;
+}
+
+#contactimg{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
 
 #logo {
@@ -68,10 +123,10 @@ th {
 
 #photo-resize {
     border: 10px outset #B49000;
-    max-width: 200px;
-    max-height: 250px;
+    width: 225px;
+    height: 300px;
 }
-
+/* 
 #aboutMeData{
     background-color: #BBBBBB; 
     height: 300px; 
@@ -79,51 +134,19 @@ th {
     padding: 10px;
 }
 
-/* #education {
-    max-width: 100px;
-    max-height: 150px;
-    padding: 50px;
-    float: right;
-} */
-
 #educationTableData{
     background-color: #BBBBBB; 
     height: 200px; 
     width: 300px;
-    /**border: 5px solid #B49000;*/
+    border: 5px solid #B49000;
     padding: 10px;
-}
+} */
 
 #projectDescription{
     float: left;
     background-color: #BBBBBB; 
     height: 350px; 
     width: 700px;
-    padding: 10px;
-}
-
-#imgCalc{
-    padding-left: 160px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-}
-
-#imgBeLive{
-    padding: 10px;
-}
-
-#imgCLippy{
-    padding: 10px;
-}
-
-#imgiTrust2{
-    padding-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#spacing{
     padding: 10px;
 }
 
@@ -138,5 +161,3 @@ th {
         height: auto;
     }
 }
-
-

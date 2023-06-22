@@ -1,7 +1,7 @@
 <!--
   - Name: Elstan Bultonsheen
   - Date: 8/04/2021
-  - Description: This page will display the projects I have been working onabort
+  - Description: This page will display the projects I have been working on
   -->
   
   <html xmlns = "http://www.w3.org/1999/xhtml">
@@ -13,83 +13,117 @@
     <body>
         <!-- The menu to navigate pages -->
         <table class = "table-border">
-            <tr> <th><a href= "index.html">Home</a></th> <th><a href= "aboutMe.html">About Me</a></th> <th><a href= "projects.html">Projects</a></th> </tr>
+            <tr> <th><input id="button" type="button" onclick="window.location.href='index.html'"; value="Home" /></th> <th><input id="button" type="button" onclick="window.location.href='aboutMe.html'"; value="About Me" /></th> <!-- <th><a href= "education.html">Education</a></th> --> <th><input id="button" type="button" onclick="window.location.href='projects.html'"; value="Projects" /></th> </tr>
         </table>
         <hr />
-        
-        <div id = "projectDescription">
-            <h3> Calculator </h3>
-            <p> This calculator is written in Java as an attempt to recreate 
-            the Windows calculator. This was my first experience in coding 
-            a graphical user interface (GUI) in Java using the Java Abstract 
-            Window Toolkit. The program currently still has bugs but is able 
-            to perform simple operations. </p>
-        </div>
-        
-        <a href = https://github.com/elstanb/portfolio/tree/main/Calculator target = "_blank"><img src = "Calculator.PNG" height = "350" width = "275" id = "imgCalc"></a>
-        
-        <div id = "spacing"> <p>  </p> </div>
-        
-        <div id = "projectDescription">
-            <h3> BeLive </h3>
-            <p> This application is a big project that is still in the works but 
-            was invented with the hope that it will make life easier for those who 
-            are less fortunate to have the tools that we do today in our society. 
-            This application  provides the medical attention for people who are in 
-            areas with no doctors or lack of trust in the medical system in their society. 
-            Therefore this application will act as a doctor or help guide the patient 
-            on a path to curing or temporarily easing pain in the area of need. This will be 
-            done through a database storing medical information relevant to the geographical 
-            location where the person is. The program prompts for their name and other 
-            revelant information, if they would like to provide it, and then asks them to 
-            select the area on the body where the pain is and then provide an explanation 
-            of what the issue is and symptoms. From this information the application will 
-            searching through the database, which is stored locally in the application. Then
-            the application will list a table of multiple treatments that the user can find 
-            in their area. If the user chooses to double click on the treatments shown in the 
-            table more information regarding how to apply the treament in detail will be provided. 
-            Many other features are yet to be added but the current design runs as a template with 
-            dummy information. This application was written in Java.</p>
-        </div>
 
-        <!--An emergency feature is yet to be added along with a image capturing part that 
-        allow the user to take a photo of their injury and it will be sent to doctors 
-        to diagnose and attempt to solve.-->
-        
-        <a href = https://github.com/elstanb/portfolio/tree/main/BeLive target = "_blank"><img src = "BeLive.PNG" height = "350" width = "500" id = "imgBeLive"></a>
-        
-        <div id = "spacing"> <p>  </p> </div>
-        
-        <div id = "projectDescription">
-            <h3> Clippy's Revenge </h3>
-            <p> This is a project that I worked on along side two very good
-            video game designers in the Imangi Global Game Jam 2021. In this
-            Global Game Jam we were given 48 hours to develop a game based on 
-            the theme of Lost & Found. They created most of the game and I 
-            attempted to create the task that I was given but as this was a
-            timed event my addition was not able to be added in time due to
-            compatability issues. This Game Jam taught me a lot about C#
-            and the game development application Unity. </p>
+        <div class="titleContainer">
+            <button onclick="plusDivs(-1)" style="float: left;"><b><</b></button>
+            <button onclick="plusDivs(+1)"style="float: right;"><b>></b></button>
+            <h1 class="titles">Calculator</h1>
+            <h1 class="titles">BeLive</h1>
+            <h1 class="titles">Clippy's Revenge</h1>
+            <h1 class="titles">iTrust2 Website</h1>
+            <h1 class="titles">Redfish Integration to XSOAR</h1>
+        </div>
+        <div class="displayContainer">
+            <img class="images" src="Calculator.PNG">
+            <img class="images" src="BeLive.PNG">
+            <img class="images" src="ClippysRevenge.PNG">
+            <img class="images" src="iTrust2.png">
+            <img class="images" src="redfish.png">
+        </div>
+        <div class="textContainer">
+            <p class="texts"> <b>Language:</b> Java <br/> <b>Timeline:</b> 2020 - 2021 <br/> 
+                <b>Code Repository</b> <a href = https://github.com/elstanb/portfolio/tree/main/Calculator target = "_blank">https://github.com/elstanb/portfolio/tree/main/Calculator</a> <br/> <br/>
+                This calculator is an attempt to recreate 
+                the Windows calculator. This was my first experience in coding 
+                a graphical user interface (GUI) using the Java Abstract 
+                Window Toolkit. The program currently still has bugs but is able 
+                to perform simple operations. </p>
+            <p class="texts"> <b>Language:</b> Java <br/> <b>Timeline:</b> 2020 - Current <br/> 
+                <b>Code Repository</b> <a href = https://github.com/elstanb/portfolio/tree/main/BeLive target = "_blank">https://github.com/elstanb/portfolio/tree/main/BeLive</a> <br/> <br/>
+                This application is a big project that is still in the works but 
+                was invented with the hope that it will make life easier for those who 
+                are less fortunate to have the tools that we do today in our society. 
+                This application  provides the medical attention for people who are in 
+                areas with no doctors or lack of trust in the medical system in their society. 
+                Therefore this application will act as a doctor or help guide the patient 
+                on a path to curing or temporarily easing pain in the area of need. This will be 
+                done through a database storing medical information relevant to the geographical 
+                location where the person is. The program prompts for their name and other 
+                revelant information, if they would like to provide it, and then asks them to 
+                select the area on the body where the pain is and then provide an explanation 
+                of what the issue is and symptoms. From this information the application will 
+                searching through the database, which is stored locally in the application. Then
+                the application will list a table of multiple treatments that the user can find 
+                in their area. If the user chooses to double click on the treatments shown in the 
+                table more information regarding how to apply the treament in detail will be provided. 
+                Many other features are yet to be added but the current design runs as a template with 
+                dummy information.</p>
+            <p class="texts"> <b>Language:</b> C# <br/> <b>Timeline:</b> 2021 <br/> 
+                <b>Code Repository</b> <a href = https://globalgamejam.org/2021/games/clippys-revenge-4-0 target = "_blank">https://globalgamejam.org/2021/games/clippys-revenge-4-0</a> <br/> <br/>
+                This is a project that I worked on along side two very good
+                video game designers in the Imangi Global Game Jam 2021. In this
+                Global Game Jam we were given 48 hours to develop a game based on 
+                the theme of Lost & Found. They created most of the game and I 
+                attempted to create the task that I was given but as this was a
+                timed event my addition was not able to be added in time due to
+                compatability issues. This Game Jam taught me a lot about C#
+                and the game development application Unity. </p>
+            <p class="texts"> <b>Language:</b> HMTL, AngularJS, SQL <br/> <b>Timeline:</b> 2022 <br/> 
+                <b>Code Repository</b> <a href = https://github.ncsu.edu/engr-csc326-spring2022/csc326-TP-214-4/tree/main/iTrust2 target = "_blank">https://github.ncsu.edu/engr-csc326-spring2022/csc326-TP-214-4/tree/main/iTrust2</a> <br/> <br/>
+                This is a project that I worked on along side five other
+                computer science students. We introduced a new billing
+                functionality to the iTrust2 Medical Recording System. I
+                worked specifically on the front-end creating the view bills
+                page for both the patient and the billing staff member. I also
+                helped to fix issues with the backend API and SQL database. 
+                Through this project I learned how to work togethe rwith a large 
+                group of computer scientists and furthered my knowledge with 
+                AngularJS and SQL. </p>
+            <p class="texts"> <b>Language:</b> Python <br/> <b>Timeline:</b> 2023 <br/>
+                <b>Code Repository</b> <a href = https://github.ncsu.edu/engr-csc-sdc/2023SpringTeam16-Truist/tree/main/Redfish target = "_blank">https://github.ncsu.edu/engr-csc-sdc/2023SpringTeam16-Truist/tree/main/Redfish</a> <br/> <br/>
+                This is a project that I worked on along side four other
+                computer science students. We expanded upon the current cybersecurity
+                tools that the Truist cybersecurity team was using in there XSOAR common
+                platform. In this project I worked on a subteam for a specific cybersecurity
+                tool that Truist wanted integrated to there system which was DMTF Redfish.
+                This tool needed to be integrated to the system with specific functionality
+                defined by our sponsor with Truist. The functionalities that they wanted
+                were specific to account management in there system: reset user password, 
+                revoke privilege, and list all users on the system. This functionality
+                was created and properly integrated into the XSOAR system and will be 
+                incorporated into the open source community.</p>
+            
         </div>
         
-        <a href = https://globalgamejam.org/2021/games/clippys-revenge-4-0 target = "_blank"><img src = "ClippysRevenge.PNG" height = "350" width = "500" id = imgClippy></a>
-        
-        <div id = "spacing"> <p>  </p> </div>
-        
-        <div id = "projectDescription">
-            <h3> iTrust2 </h3>
-            <p> This is a project that I worked on along side five other
-            computer science students. We introduced a new billing
-            functionality to the iTrust2 Medical Recording System. I
-            worked specifically on the front-end creating the view bills
-            page for both the patient and the billing staff member. I also
-            helped to fix issues with the backend API and SQL database. 
-            Through this project I learned how to work togetherwith a large 
-            group of computer scientists and furthered my knowledge with 
-            AngularJS and SQL. </p>
-        </div>
+        <script>
+            //Updated code but credit from https://www.w3schools.com/w3css/w3css_slideshow.asp
+            var slideIndex = 1;
+            showDivs(slideIndex);
 
-        <a href = https://github.ncsu.edu/engr-csc326-spring2022/csc326-TP-214-4 target = "_blank"><img src = "iTrust2.png" height = "250" width = "500" id = imgiTrust2></a>
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
 
+            function showDivs(n) {
+                var i;
+                var images = document.getElementsByClassName("images");
+                var titles = document.getElementsByClassName("titles");
+                var texts = document.getElementsByClassName("texts");
+                if (n > images.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = images.length} ;
+                for (i = 0; i < images.length; i++) {
+                    images[i].style.display = "none";
+                    titles[i].style.display = "none";
+                    texts[i].style.display = "none";
+                }
+                images[slideIndex-1].style.display = "block";
+                titles[slideIndex-1].style.display = "block";
+                texts[slideIndex-1].style.display = "block";
+            }
+        </script>
+        
     </body>
   </html>

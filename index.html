@@ -16,7 +16,7 @@
     
     <!-- Table for navigation -->
     <table class = "table-border">
-        <tr> <th><a href= "index.html">Home</a></th> <th><a href= "aboutMe.html">About Me</a></th>  <!-- <th><a href= "education.html">Education</a></th> --> <th><a href= "projects.html">Projects</a></th> </tr>
+        <tr> <th><input id="button" type="button" onclick="window.location.href='index.html'"; value="Home" /></th> <th><input id="button" type="button" onclick="window.location.href='aboutMe.html'"; value="About Me" /></th> <!-- <th><a href= "education.html">Education</a></th> --> <th><input id="button" type="button" onclick="window.location.href='projects.html'"; value="Projects" /></th> </tr>
     </table>
     <hr />
     
@@ -24,18 +24,18 @@
     
     <!-- Paragraphs discussing the purpose of this website -->
     <div id = "purpose">
-        <h3>Purpose</h3>
-        <p> This website is written entirely in HTML along with CSS, for the styling, 
-            to share information about me, my projects, and my life.</p>
-            
-        <p>Images used and applications shown are all created by me through the use of
+        <h1>Purpose</h1>
+        <p style="font-size: larger;"> This website is written entirely in HTML along with CSS, for the styling, 
+            to share information about me, my projects, and my life. <br /><br /> Images used and applications shown are all created by me through the use of
             Microsoft Powerpoint, Eclipse IDE, and Visual Studio Code. </p>
     </div>
         <img src = "logo.png" id = "logo" >
     </section>
-    <p id = "contact"> <b>Elstan Bultonsheen<br>
-        <a href="mailto:elstanbultonsheen@gmail.com">elstanbultonsheen@gmail.com<a></b></p>
-
+    <p style = "font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" id = "contact"> <b>Elstan Bultonsheen</b><br/>
+        <div style = "text-align: center;">
+        <a href="mailto:elstanbultonsheen@gmail.com"><img src = gmail.png id="contactimg"><a><a href="https://www.linkedin.com/in/elstan-bultonsheen/" target = "_blank"><img src = linkedin.png id="contactimg"><a></a>
+        <a href="https://github.com/elstanb" target = "_blank"><img src = github.png id="contactimg"></a><a href="https://www.instagram.com/elsty123/?hl=en" target = "_blank"><img src = instagram.png id="contactimg"><a></a></p>
+        </div>
     </body>
     
 </html>
